@@ -1,15 +1,18 @@
-<template>
-  <hello-world />
+<template lang="pug">
+  v-card
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
 
 export default {
-  name: "Home",
-
   components: {
-    HelloWorld,
   },
 };
 </script>
+
+<style lang="less" scoped>
+div {
+  width: 100vw;
+  height: 100vh;
+}
+</style>
